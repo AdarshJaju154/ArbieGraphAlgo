@@ -30,7 +30,7 @@ function setup() {
 }
 
 function draw() {
-  background('#8d96a3');
+  background('#57c0ab');
 
   astar.frame_rate = slider.value()*3;
   astar.show();
