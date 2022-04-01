@@ -27,10 +27,10 @@ function Node(value, rd){
     }
     else noStroke();
 
-    if(this.vis || this.starting_node) fill('#edae49');
+    if(this.vis || this.starting_node) fill('#57c0ab');
     else{
-      if(this.on_q == 1) fill('#d1495b');
-      else fill('#00798c');
+      if(this.on_q == 1) fill('#ab3c53');
+      else fill('#ffffff');
     }
 
 
