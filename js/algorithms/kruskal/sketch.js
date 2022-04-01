@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background('#8d96a3');
+  background('#57c0ab');
   kruskal.frame_rate = slider.value();
   kruskal.show();
 }
