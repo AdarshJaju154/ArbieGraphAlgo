@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background('#8d96a3');
+  background('#57c0ab');
   dfs.frame_rate = slider.value();
   dfs.show();
 }
