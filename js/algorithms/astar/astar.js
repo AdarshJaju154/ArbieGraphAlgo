@@ -1,5 +1,5 @@
 
-var colors = ['#adb2ba', '#0f0f0f', '#66a182', '#b51026', '#2817c2', '#00798c', '#d1495b'];
+var colors = ['#adb2ba', '#0f0f0f', '#63967c', '#f20726', '#2817c2', '#00798c', '#f20726'];
 var inf = 10000000000000;
 
 function AStar(rows, columns, width_, height_, frame_rate){
