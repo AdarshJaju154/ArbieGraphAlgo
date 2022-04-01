@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background('#8d96a3');
+  background('#57c0ab');
 
   var ok = 0;
   strokeWeight(3);
