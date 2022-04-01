@@ -14,9 +14,9 @@ window.onresize = function() {
 }
 
 function create_boxes(){
-  boxes = new Array(7);
-  for(var i = 0; i < 7; i++){
-    var ang = 2 * PI * i / 7;
+  boxes = new Array(6);
+  for(var i = 0; i < 6; i++){
+    var ang = 2 * PI * i / 6;
     boxes[i] = new Box(w/3 + r*cos(ang), h/2 + r*sin(ang), 45);
   }
   add_information();
@@ -118,14 +118,10 @@ function add_information(){
                   'graph, and if it does, find one of these cycles.',
                   'bford.html');
 
-  boxes[5].txt = ['Korasaju'];
-  boxes[5].add_txt(w*0.75, h*0.5,
-                  'Korasaju\'s Algorithm finds the Strongly ' +
-                  'Connected Components (SCC) of an undirected graph.',
-                  'korasaju.html');
+  
 
-  boxes[6].txt = ['A*', 'Search'];
-  boxes[6].add_txt(w*0.75, h*0.5,
+  boxes[5].txt = ['A*', 'Search'];
+  boxes[5].add_txt(w*0.75, h*0.5,
                   'A* is a graph traversal and path search informed algorithm. ' +
                   'In every step A* selects the path that minimizes a function ' +
                   'that works with a heuristic. ',
