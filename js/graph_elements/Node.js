@@ -27,7 +27,7 @@ function Node(value, rd){
     }
     else noStroke();
 
-    if(this.vis || this.starting_node) fill('#57c0ab');
+    if(this.vis || this.starting_node) fill('##ffffff');
     else{
       if(this.on_q == 1) fill('#ab3c53');
       else fill('#949494');
