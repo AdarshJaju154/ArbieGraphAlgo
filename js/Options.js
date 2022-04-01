@@ -1,7 +1,7 @@
 function Option(txt, n_input){
 
    this.create_design = function(){
-    this.button.style('background-color', '#8d96a3')
+    this.button.style('background-color', '#555555')
     this.button.style('border-radius','20px');
     this.button.style('border','none');
     this.button.style('font-family','arial');
