@@ -17,19 +17,17 @@ function Box(x, y, r){
 
     strokeWeight(1);
     noStroke();
-    fill('#8d96a3');
+    fill('#555555');
     circle(this.x, this.y, this.r*2);
 
-    strokeWeight(1);
-    stroke('#AFAFAF');
-    fill('#AFAFAF');
+    
 
     for(var i = 0; i < this.n; ++i){
       line(this.lines[i][0], this.lines[i][1], this.lines[i][2], this.lines[i][3]);
     }
 
     if(this.on){
-      show_info(this.info, this.txt_sz, this.x_txt, this.y_txt);
+      show_info(this.info, 20, this.x_txt, this.y_txt);
     }
 
     if(this.on){
@@ -37,15 +35,15 @@ function Box(x, y, r){
       fill(0);
     }
     else{
-      stroke('#2e4057');
-      fill('#2e4057');
+      stroke('#000000');
+      fill('#000000');
     }
     strokeWeight(1.3);
     textSize(18);
 
     var h = 10 - (this.txt.length - 1)* 10;
     for(i = 0; i < this.txt.length; ++i){
-      text(this.txt[i], this.x - textWidth(this.txt[i])/2 , this.y + h + i*20);
+      text(this.txt[i], this.x - textWidth(this.txt[i])/2 , this.y + h + i*20 , );
     }
 
   }
@@ -76,6 +74,7 @@ function Box(x, y, r){
   this.add_txt = function(x, y, txt, dir){
 
     this.dir = dir;
+    textSize(20);
     this.x_txt = x;
     this.y_txt = y;
     this.info = split_info(txt);
