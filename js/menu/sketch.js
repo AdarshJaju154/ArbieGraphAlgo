@@ -49,7 +49,7 @@ function draw() {
 
 function draw_title(){
 
-  fill('#8d96a3');
+  fill('#555555');
   stroke('#00798c')
   beginShape();
   for(i = 0; i < boxes.length; ++i){
