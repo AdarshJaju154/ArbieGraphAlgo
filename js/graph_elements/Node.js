@@ -30,7 +30,7 @@ function Node(value, rd){
     if(this.vis || this.starting_node) fill('#57c0ab');
     else{
       if(this.on_q == 1) fill('#ab3c53');
-      else fill('#ffffff');
+      else fill('#949494');
     }
 
 
