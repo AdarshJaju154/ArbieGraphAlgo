@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background('#ffffff');
+  background('#82d1c1');
   dijkstra.frame_rate = slider.value();
   dijkstra.show();
 }
